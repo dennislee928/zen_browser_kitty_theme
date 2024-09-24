@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "walking kitty",
+  "version": "1.0",
+  "description": "A zen browser walking kitty theme.",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "theme": {
+    "images": {
+      "theme_frame": "images/your-image.png"
+    },
+    "colors": {
+      "frame": "#000000",
+      "toolbar": "#1a1a1a",
+      "tab_text": "#ffffff"
+    }
+  },
+  "permissions": ["activeTab"]
+}
